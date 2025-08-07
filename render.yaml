@@ -5,10 +5,3 @@ services:
     plan: free
     image:
       url: docker.io/telegram/bot-api:latest
-    envVars:
-      - key: TELEGRAM_API_ID
-        fromEnvironment: true
-      - key: TELEGRAM_API_HASH
-        fromEnvironment: true
-      - key: TELEGRAM_BOT_TOKEN
-        fromEnvironment: true
